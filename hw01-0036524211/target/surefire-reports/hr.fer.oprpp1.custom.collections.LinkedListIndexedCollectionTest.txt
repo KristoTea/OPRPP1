@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest.testConstructorWithOtherCollection()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3> but was: <0>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:527)
+	at hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest.testConstructorWithOtherCollection(LinkedListIndexedCollectionTest.java:23)
+
+hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest.testInsertMethod()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot assign field "element" because "newNode" is null
+	at hr.fer.oprpp1.custom.collections.LinkedListIndexedCollection.insert(LinkedListIndexedCollection.java:137)
+	at hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest.testInsertMethod(LinkedListIndexedCollectionTest.java:82)
+
+hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest.testRemoveMethod()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <hr.fer.oprpp1.custom.collections.LinkedListIndexedCollection@7b1d7fff> but was: <hr.fer.oprpp1.custom.collections.LinkedListIndexedCollection@299a06ac>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest.testRemoveMethod(LinkedListIndexedCollectionTest.java:141)
+

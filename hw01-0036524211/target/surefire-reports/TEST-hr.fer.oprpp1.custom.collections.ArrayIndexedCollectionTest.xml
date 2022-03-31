@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="26" failures="9" name="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest" time="0.037" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="sun.boot.library.path" value="C:\java\jdk-15.0.2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\teakr\eclipse-workspace\hw01-0036524211"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="HR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\teakr\eclipse-workspace\hw01-0036524211"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\teakr\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.8.3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.library.path" value="C:\java\jdk-15.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\teakr\AppData\Local\Microsoft\WindowsApps;C:\Users\teakr\AppData\Local\Programs\Microsoft VS Code\bin;C:\java\jdk-15.0.2\bin;C:\IntelliJ IDEA Community Edition 2020.3\bin;;C:\Users\teakr\AppData\Roaming\npm;C:\apache-maven-3.8.3\bin;;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.8.3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="59.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.8.3\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\teakr"/>
+    <property name="user.timezone" value="Europe/Zagreb"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="user.name" value="teakr"/>
+    <property name="java.class.path" value="C:\apache-maven-3.8.3\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
+    <property name="java.home" value="C:\java\jdk-15.0.2"/>
+    <property name="user.language" value="hr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp852"/>
+    <property name="maven.home" value="C:\apache-maven-3.8.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp852"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest" name="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testIndexMethodThrowsNullPointerException" time="0.002"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest" name="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testAddElementThrowsNullPointerException" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest" name="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testGetElementThrowsIndexOutOfBoundsException" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest" name="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testConstructorWithOtherCollectionAndInitialCapacityThrowsIllegalArgumentException" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest" name="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testConstructorWithOtherCollectionAndInitialCapacityThrowsNullPointerException" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest" name="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testConstructorWithOtherCollectionAndInitialCapacity" time="0.031">
+    <failure message="expected: &lt;3&gt; but was: &lt;0&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;3&gt; but was: &lt;0&gt;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:527)
+	at hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testConstructorWithOtherCollectionAndInitialCapacity(ArrayIndexedCollectionTest.java:57)
+</failure>
+  </testcase>
+  <testcase classname="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest" name="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testConstructorWithInitialCapacityThrowsIllegalArgumentException" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest" name="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testConstructorWithOtherCollectionThrowsNullPointerException" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest" name="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testInsertElementOnExactPositionThrowsNullPointerException" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest" name="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testInsertElementOnExactPositionThrowsIndexOutOfBoundsException" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest" name="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testRemoveElementOnGivenIndexThrowsIndexOutOfBoundsException" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest" name="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testSizeMethod" time="0">
+    <failure message="expected: &lt;3&gt; but was: &lt;0&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;3&gt; but was: &lt;0&gt;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:527)
+	at hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testSizeMethod(ArrayIndexedCollectionTest.java:216)
+</failure>
+  </testcase>
+  <testcase classname="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest" name="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testForEachMethod" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest" name="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testToArray" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest" name="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testGetElement" time="0.001">
+    <failure message="Argument index must be between 0 and (size - 1)" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Argument index must be between 0 and (size - 1)
+	at hr.fer.oprpp1.custom.collections.ArrayIndexedCollection.get(ArrayIndexedCollection.java:113)
+	at hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testGetElement(ArrayIndexedCollectionTest.java:102)
+</failure>
+  </testcase>
+  <testcase classname="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest" name="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testClearAllArray" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest" name="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testIndexOfMethod" time="0.001">
+    <failure message="expected: &lt;1&gt; but was: &lt;-1&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;1&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:527)
+	at hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testIndexOfMethod(ArrayIndexedCollectionTest.java:167)
+</failure>
+  </testcase>
+  <testcase classname="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest" name="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testAddElement" time="0">
+    <failure message="expected: &lt;[1]&gt; but was: &lt;hr.fer.oprpp1.custom.collections.ArrayIndexedCollection@7c53a9eb&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;[1]&gt; but was: &lt;hr.fer.oprpp1.custom.collections.ArrayIndexedCollection@7c53a9eb&gt;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testAddElement(ArrayIndexedCollectionTest.java:87)
+</failure>
+  </testcase>
+  <testcase classname="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest" name="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testConstructorWithInitialCapacity" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest" name="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testRemoveGivenObject" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest" name="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testInsertElementOnExactPosition" time="0">
+    <failure message="Argument position must be between 0 and (size - 1)" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Argument position must be between 0 and (size - 1)
+	at hr.fer.oprpp1.custom.collections.ArrayIndexedCollection.insert(ArrayIndexedCollection.java:137)
+	at hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testInsertElementOnExactPosition(ArrayIndexedCollectionTest.java:130)
+</failure>
+  </testcase>
+  <testcase classname="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest" name="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testDefaultConstructor" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest" name="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testConstructorWithOtherCollection" time="0.001">
+    <failure message="expected: &lt;3&gt; but was: &lt;0&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;3&gt; but was: &lt;0&gt;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:527)
+	at hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testConstructorWithOtherCollection(ArrayIndexedCollectionTest.java:37)
+</failure>
+  </testcase>
+  <testcase classname="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest" name="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testRemoveElementOnGivenIndex" time="0">
+    <failure message="Argument index must be between 0 and (size - 1)" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Argument index must be between 0 and (size - 1)
+	at hr.fer.oprpp1.custom.collections.ArrayIndexedCollection.remove(ArrayIndexedCollection.java:183)
+	at hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testRemoveElementOnGivenIndex(ArrayIndexedCollectionTest.java:190)
+</failure>
+  </testcase>
+  <testcase classname="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest" name="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testContainsMethodReturnTrue" time="0.001">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testContainsMethodReturnTrue(ArrayIndexedCollectionTest.java:225)
+</failure>
+  </testcase>
+  <testcase classname="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest" name="hr.fer.oprpp1.custom.collections.ArrayIndexedCollectionTest.testContainsMethodReturnFalse" time="0"/>
+</testsuite>
